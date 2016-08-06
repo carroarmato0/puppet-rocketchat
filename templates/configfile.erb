@@ -1,4 +1,4 @@
 ## This file is managed by Puppet ##
-ROOT_URL=<%= scope.varlookup('rocketchat::root_url') -%>
-MONGO_URL=<%= scope.varlookup('rocketchat::mongo_url') -%>
-MAIL_URL==<%= scope.varlookup('rocketchat::mail_url') -%>
+ROOT_URL=<%= scope['rocketchat::root_url'] -%>
+MONGO_URL=<%= scope['rocketchat::mongo_url'] -%>
+MAIL_URL==<%= scope['rocketchat::mail_url'] -%>
